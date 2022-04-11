@@ -1,0 +1,41 @@
+.diplay-product{
+    width: 70vh;
+
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin: 1.25rem 0;
+}
+
+.diplay-product img {
+    width: 180px;
+    height: 245px;
+    margin: 0.625rem auto;
+}
+
+.box-info {
+    padding: 0.625rem 0.3125rem !important;
+    background-color: #ffffff;
+    max-height:max-content;
+}
+
+.text-capitalize{
+    min-height: 4vh;
+}
+
+.box-info strong {
+    display: block;
+    font-size: 1rem;
+}
+
+.button-detail {
+    display: block;
+    width: 100%;
+    opacity: 0.7;
+    background-color: orange;
+    width: 100%;
+    &:hover{
+        opacity: 1;
+        background-color: orange;
+    }
+}
